@@ -1,0 +1,61 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200&family=Caveat&family=Dancing+Script&family=Exo+2:ital,wght@1,200&family=Pacifico&family=Signika+Negative:wght@300&family=Titillium+Web:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+:root{
+  --bs-primary-bg-subtle:rgb(153, 153, 153, 0.5) !important;
+}
+body {
+  font-style: italic;
+}
+.h2{
+  font-style: italic;
+}
+.bg-dark{
+    background-color: black !important;
+}
+.accordion-button{
+  border: 0 !important;
+  box-shadow: none !important;
+  color: #222222 !important;
+}
+.navbar-brand img{
+    background-blend-mode: multiply;
+}
+.badge{
+  background-color: #999999 !important;
+}
+.rounded-pill{
+  margin-top: 16px !important;
+  color: #333333 !important;
+}
+.links {
+  color: #428bca;
+  text-decoration: none !important;
+}
+
+abbr[title] {
+  border-bottom: none !important;
+  cursor: inherit !important;
+  text-decoration: none !important;
+}
+a {
+  color: #555555 !important;
+  text-decoration: none !important;
+  font-style: normal !important;
+}
+.mainHeading{
+    color: black;
+}
+.tasksHeading{
+    color: #333333;
+}
+
+.list-group-item.dropdown-toggle:hover .dropdown-menu {
+  display: block;
+  position: absolute;
+  transform: translate(100%, 0);
+}
