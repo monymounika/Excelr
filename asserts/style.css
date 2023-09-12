@@ -46,6 +46,8 @@ a {
   color: #555555 !important;
   text-decoration: none !important;
   font-style: normal !important;
+  padding: 0 !important;
+  margin: 0 !important;
 }
 .mainHeading{
     color: black;
@@ -61,7 +63,7 @@ a {
 }
 
 .list-group-item a {
-  max-width: calc(100% - 1.25rem) !important; /* Adjust as needed */
+  /* max-width: calc(100% - 1.25rem) !important; Adjust as needed */
   overflow: hidden !important;
   text-overflow: ellipsis !important;
   white-space: wrap !important;
