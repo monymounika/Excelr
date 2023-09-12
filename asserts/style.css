@@ -59,3 +59,11 @@ a {
   position: absolute;
   transform: translate(100%, 0);
 }
+
+.list-group-item a {
+  max-width: calc(100% - 1.25rem) !important; /* Adjust as needed */
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  white-space: wrap !important;
+  display: inline-block !important;
+}
